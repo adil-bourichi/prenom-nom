@@ -1,0 +1,5 @@
+@media screen and (min-width: 50px) and (max-width: 1280px) {
+    html {
+        background-color: #ffffff;
+    }
+}
