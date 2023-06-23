@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    background-image: url("image03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    background-color: beige;
+    padding: 10px;
+
+    }
+ul a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.4em;
+    }
+main{
+    text-align: center;
+    color: rgb(0, 255, 153);
+    padding: 3%;
+    font-size: 1.5em;
+}
