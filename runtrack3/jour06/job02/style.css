@@ -1,0 +1,22 @@
+body {
+    background-color: #88c1d0;
+}
+
+/* Media Queries pour les différentes résolutions d'écran */
+@media (min-width: 1680px) and (max-width: 1920px) {
+    body {
+        background-color: #ffca4b;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1680px) {
+    body {
+        background-color: #275fa0;
+    }
+}
+
+@media (max-width: 1280px) {
+    body {
+        background-color: #ffffff;
+    }
+}
