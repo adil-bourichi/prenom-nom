@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    background-color: #88c1d0;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+}
+
+/* Media Queries pour les différentes tailles d'écran */
+@media (min-width: 1280px) {
+    .section {
+        background-color: #ffca4b;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .section {
+        background-color: #275fa0;
+    }
+}
+
+@media (max-width: 1023px) {
+    .section {
+        background-color: #ffffff;
+        color: #000;
+    }
+}
